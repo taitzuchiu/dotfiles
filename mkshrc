@@ -603,6 +603,13 @@ done
 
 export HISTFILE=~/.mksh_history
 
+export TMPDIR=/tmp/$USER-tmp
+
+if [ ! -d "$TMPDIR" ]; then
+	mkdir -p "$TMPDIR"
+	chmod 0700 "$TMPDIR"
+fi
+
 # If not running interactively, don't do any more
 [[ $- != *i* ]] && return
 
