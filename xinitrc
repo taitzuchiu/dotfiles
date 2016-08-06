@@ -19,6 +19,4 @@ sxhkd &
 xsetroot -cursor_name left_ptr &
 xrdb -merge ~/.Xresources
 
-while true ; do
-	bspwm || break
-done
+exec bspwm
