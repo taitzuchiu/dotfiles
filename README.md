@@ -1,2 +1,2 @@
-Tzu Chiu's dotfiles
+Tai Tzu Chiu's dotfiles
 ===================
